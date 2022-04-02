@@ -69,7 +69,7 @@ class Net_dropout(nn.Module):
 
 
 class Net_dropout_new(nn.Module):
-    def __init__(self, dropout_rate):
+    def __init__(self, dropout_rate = 0):
         super().__init__()
         self.conv1 = nn.Conv2d(3, 8, 5, padding=2)
         self.conv11 = nn.Conv2d(8, 32, 5, padding=2)
@@ -94,22 +94,20 @@ class Net_dropout_new(nn.Module):
         x = self.batch1(x)
         x = F.relu(x)
         x = self.pool(x)
-        # x = self.drop(x)
+        x = self.drop(x)
 
         x = self.conv2(x)
         x = self.conv22(x)
         x = self.batch2(x)
         x = F.relu(x)
         x = self.pool(x)
-        # x = self.drop(x)
+        x = self.drop(x)
 
         x = self.conv3(x)
         x = self.conv33(x)
         x = self.batch3(x)
         x = F.relu(x)
-        # x = self.drop(x)
-        # x = self.pool(x)
-
+   
         x = torch.flatten(x, 1)
 
         x = self.fc1(x)
