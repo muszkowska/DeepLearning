@@ -130,3 +130,5 @@ dmypy.json
 
 # Data 
 data/cifar-10*
+data/test.7z
+data/test

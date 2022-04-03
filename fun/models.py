@@ -57,8 +57,8 @@ class Net_dropout(nn.Module):
         x = self.conv2(x)
         x = self.batch2(x)
         x = F.relu(x)
-        x = self.drop1(x)
         x = self.pool(x)
+        x = self.drop1(x)
 
         x = torch.flatten(x, 1)
 
@@ -69,7 +69,7 @@ class Net_dropout(nn.Module):
 
 
 class Net_dropout_new(nn.Module):
-    def __init__(self, dropout_rate = 0):
+    def __init__(self, dropout_rate=0):
         super().__init__()
         self.conv1 = nn.Conv2d(3, 8, 5, padding=2)
         self.conv11 = nn.Conv2d(8, 32, 5, padding=2)
@@ -83,6 +83,7 @@ class Net_dropout_new(nn.Module):
         self.conv3 = nn.Conv2d(32, 16, 5, padding=2)
         self.conv33 = nn.Conv2d(16, 8, 5, padding=2)
         self.batch3 = nn.BatchNorm2d(8)
+
         self.fc1 = nn.Linear(8 * 8 * 8, 120)
         self.fc2 = nn.Linear(120, 10)
 
@@ -107,34 +108,13 @@ class Net_dropout_new(nn.Module):
         x = self.conv33(x)
         x = self.batch3(x)
         x = F.relu(x)
-   
+
         x = torch.flatten(x, 1)
 
         x = self.fc1(x)
         x = F.relu(x)
         x = self.fc2(x)
         return x
-
-
-# class Resnet50_1(nn.Module):
-#     def __init__(self):
-#         super().__init__()
-#         resnet50_pre = models.resnet50(pretrained=True)
-#         self.conv_layers = nn.ModuleList()
-#         for child in resnet50_pre.named_children():
-#             if child[0] == "fc":
-#                 break
-#             self.conv_layers.append(child[1])
-#         self.fc = nn.Linear(resnet50_pre.fc.in_features, 10)
-
-#     def forward(self, x):
-
-#         for layer in self.conv_layers:
-#             x = layer(x)
-#         x = torch.flatten(x, 1)
-#         x = self.fc(x)
-
-#         return x
 
 
 class Resnet18_1(nn.Module):
