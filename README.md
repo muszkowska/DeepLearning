@@ -4,8 +4,11 @@
 
 Authors: Aleksandra Muszkowska, Mateusz Jastrzębiowski
 
-### 1 Notebook worth to revise
-* notebooks/results.ipynb
+### 1 Files worth to revise
+* graphs with experiments and obtained results: notebooks/results.ipynb 
+* notebooks with training with augmentations: notebooks/augmentation_experiments.ipynb, notebooks/augm_exp_resnet2.ipynb 
+* notebooks with training with cutmix: notebooks/resnet18_2_cutmix.ipynb, notebooks/net_dropout_new_cutmix.ipynb
+* File with defined models: fun/models.py
 
 
 ### 2 Network architectures
