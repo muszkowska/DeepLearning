@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Data 
+data/cifar-10*
+data/test.7z
+data/test
+models/resnet2_cutmix/

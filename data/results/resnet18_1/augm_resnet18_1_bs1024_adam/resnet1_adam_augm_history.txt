@@ -1,0 +1,104 @@
+Epoch 1
+-------------------------------
+0
+ Train Accuracy: 44.7%, Train Avg loss 1.608315 
+
+Test Accuracy: 61.1%, Test Avg loss: 1.122541 
+
+Epoch 2
+-------------------------------
+0
+ Train Accuracy: 57.2%, Train Avg loss 1.215923 
+
+Test Accuracy: 65.2%, Test Avg loss: 0.994754 
+
+Epoch 3
+-------------------------------
+0
+ Train Accuracy: 59.7%, Train Avg loss 1.146253 
+
+Test Accuracy: 67.9%, Test Avg loss: 0.911814 
+
+Epoch 4
+-------------------------------
+0
+ Train Accuracy: 60.5%, Train Avg loss 1.115765 
+
+Test Accuracy: 69.5%, Test Avg loss: 0.882067 
+
+Epoch 5
+-------------------------------
+0
+ Train Accuracy: 61.1%, Train Avg loss 1.099683 
+
+Test Accuracy: 70.0%, Test Avg loss: 0.868992 
+
+Epoch 6
+-------------------------------
+0
+ Train Accuracy: 61.2%, Train Avg loss 1.094586 
+
+Test Accuracy: 69.3%, Test Avg loss: 0.882512 
+
+Epoch 7
+-------------------------------
+0
+ Train Accuracy: 61.8%, Train Avg loss 1.084329 
+
+Test Accuracy: 71.5%, Test Avg loss: 0.826427 
+
+Epoch 8
+-------------------------------
+0
+ Train Accuracy: 61.6%, Train Avg loss 1.087545 
+
+Test Accuracy: 71.5%, Test Avg loss: 0.821952 
+
+Epoch 9
+-------------------------------
+0
+ Train Accuracy: 61.8%, Train Avg loss 1.079750 
+
+Test Accuracy: 70.1%, Test Avg loss: 0.854765 
+
+Epoch 10
+-------------------------------
+0
+ Train Accuracy: 62.5%, Train Avg loss 1.063733 
+
+Test Accuracy: 71.8%, Test Avg loss: 0.815102 
+
+Epoch 11
+-------------------------------
+0
+ Train Accuracy: 62.4%, Train Avg loss 1.070494 
+
+Test Accuracy: 69.5%, Test Avg loss: 0.876407 
+
+Epoch 12
+-------------------------------
+0
+ Train Accuracy: 62.4%, Train Avg loss 1.064270 
+
+Test Accuracy: 71.7%, Test Avg loss: 0.815147 
+
+Epoch 13
+-------------------------------
+0
+ Train Accuracy: 62.4%, Train Avg loss 1.061518 
+
+Test Accuracy: 71.9%, Test Avg loss: 0.801457 
+
+Epoch 14
+-------------------------------
+0
+ Train Accuracy: 62.6%, Train Avg loss 1.056774 
+
+Test Accuracy: 70.3%, Test Avg loss: 0.851098 
+
+Epoch 15
+-------------------------------
+0
+ Train Accuracy: 62.6%, Train Avg loss 1.059255 
+
+Test Accuracy: 71.6%, Test Avg loss: 0.815360 
