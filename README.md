@@ -4,7 +4,11 @@
 
 Authors: Aleksandra Muszkowska, Mateusz Jastrzębiowski
 
-### 1. Network architectures
+### 1 Notebook worth to revise
+* notebooks/results.ipynb
+
+
+### 2 Network architectures
 In our project, we will compare different neural network architectures to classify images from the
 CIFAR-10 dataset.
 * As the first architecture, we will implement a simple convolutional network – using the PyTorch
@@ -15,10 +19,12 @@ library.
 only the last layer - the classifier.
   *  Use the first n layers – without changing the weights. Train the model on the last few layers.
 
-### 2 Hyper-parameters tuning
+### 3 Hyper-parameters tuning
 We will investigate influence of the following hyper-parameter change on obtained results:
 * Hyper-parameters related to training process: Learning rate, Number of epochs, Batch size.
 * Hyper-parameters related to regularization: Dropout rate, Weight decay.
-### 3 Data augmentation
+### 4 Data augmentation
 We will test both standard and more sophisticated data augmentation techniques and choose those
 which give the best results
+
+
